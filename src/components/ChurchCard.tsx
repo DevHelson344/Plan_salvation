@@ -1,4 +1,4 @@
-import { MapPin, Clock, Phone, Mail } from "lucide-react";
+import { MapPin, Clock, Phone } from "lucide-react";
 
 export const ChurchCard = () => {
   return (
@@ -55,9 +55,9 @@ export const ChurchCard = () => {
                 <div>
                   <h4 className="text-white font-semibold text-sm">Cultos</h4>
                   <div className="text-gray-300 text-xs space-y-1">
-                    <p>Dom: 19h</p>
-                    <p>Qua: 19h30</p>
-                    <p>Sex: 19h30</p>
+                    <p>Qua: 19:45</p>
+                    <p>Sábado: 19:30</p>
+                    <p>Domingo: 19:00</p>
                   </div>
                 </div>
               </div>
