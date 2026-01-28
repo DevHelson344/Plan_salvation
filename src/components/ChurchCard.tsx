@@ -1,4 +1,4 @@
-import { MapPin, Clock, Phone } from "lucide-react";
+import { MapPin, Clock } from "lucide-react";
 
 export const ChurchCard = () => {
   return (
@@ -35,7 +35,7 @@ export const ChurchCard = () => {
                 </div>
               </div>
 
-              <div className="flex items-start gap-3">
+              {/*<div className="flex items-start gap-3">
                 <div className="p-2 bg-amber-500/20 rounded-lg flex-shrink-0">
                   <Phone className="w-4 h-4 text-amber-400" />
                 </div>
@@ -44,7 +44,7 @@ export const ChurchCard = () => {
                   <p className="text-gray-300 text-xs">(11) 99999-9999</p>
                   <p className="text-gray-300 text-xs">contato@igreja.com.br</p>
                 </div>
-              </div>
+              </div>*/}
             </div>
 
             <div className="space-y-4">
