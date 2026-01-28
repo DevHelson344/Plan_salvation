@@ -1,0 +1,77 @@
+import { MapPin, Clock, Phone, Mail } from "lucide-react";
+
+export const ChurchCard = () => {
+  return (
+    <div className="max-w-lg w-full">
+      <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br p-1 shadow-2xl">
+        <div className="relative bg-slate-900/95 backdrop-blur-sm rounded-xl p-8">
+          <div className="text-center mb-8">
+            <div className="inline-flex p-4 bg-amber-500/20 rounded-2xl mb-4">
+              <MapPin className="w-8 h-8 text-amber-400" />
+            </div>
+            <h3 className="text-2xl font-bold text-white mb-2">
+              Venha nos Visitar!
+            </h3>
+            <p className="text-gray-300 text-sm">
+              Você é sempre bem-vindo em nossa comunidade
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <div className="p-2 bg-amber-500/20 rounded-lg flex-shrink-0">
+                  <MapPin className="w-4 h-4 text-amber-400" />
+                </div>
+                <div>
+                  <h4 className="text-white font-semibold text-sm">Endereço</h4>
+                  <p className="text-gray-300 text-xs leading-relaxed">
+                    Rua General Theodorico Gonçalves Guimarães, 465
+                    <br />
+                    Xaxim
+                    <br />
+                    CEP: 81720-070
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-3">
+                <div className="p-2 bg-amber-500/20 rounded-lg flex-shrink-0">
+                  <Phone className="w-4 h-4 text-amber-400" />
+                </div>
+                <div>
+                  <h4 className="text-white font-semibold text-sm">Contato</h4>
+                  <p className="text-gray-300 text-xs">(11) 99999-9999</p>
+                  <p className="text-gray-300 text-xs">contato@igreja.com.br</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <div className="p-2 bg-amber-500/20 rounded-lg flex-shrink-0">
+                  <Clock className="w-4 h-4 text-amber-100" />
+                </div>
+                <div>
+                  <h4 className="text-white font-semibold text-sm">Cultos</h4>
+                  <div className="text-gray-300 text-xs space-y-1">
+                    <p>Dom: 19h</p>
+                    <p>Qua: 19h30</p>
+                    <p>Sex: 19h30</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-8 text-center border-t border-amber-500/20 pt-6">
+            <p className="text-amber-400 font-semibold text-sm mb-1">
+              "Vinde a mim, todos os que estais cansados"
+            </p>
+            <p className="text-gray-400 text-xs">Mateus 11:28</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
