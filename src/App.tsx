@@ -85,7 +85,7 @@ function App() {
         </div>
       </section>
       <div className="flex justify-center mb-16">
-        <ChurchCard />
+       {/* <ChurchCard />*/}
       </div>
       <footer className="text-center py-8 text-gray-400">
         <p>© 2026 Plano da Salvação - Compartilhe o amor de Cristo</p>
