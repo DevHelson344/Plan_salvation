@@ -7,7 +7,6 @@ import {
   HandCoinsIcon,
 } from "lucide-react";
 import { VerseCard } from "./components/VerseCard";
-import { ChurchCard } from "./components/ChurchCard";
 
 function App() {
   const verses = [
